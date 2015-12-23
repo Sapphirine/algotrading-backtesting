@@ -55,7 +55,7 @@ function viewGroup(code, name) {
         legend: {
             enabled: false
         },
-        series: [{data: [], color: 'rgba(233,30,0,0.5)'}, {data: [], color: 'rgba(55,233,41,0.5)'}],
+        series: [{data: [], color: 'rgba(233,30,0,0.5)', name: 'loss'}, {data: [], color: 'rgba(55,233,41,0.5)', name: 'profit'}],
 	title : { 
 	    text: "Mean Reversion Strategy with Bollinger Bands (50-day MA +/- 2&sigma;)",
 	    useHTML: true
@@ -84,7 +84,7 @@ function viewGroup(code, name) {
         legend: {
             enabled: false
         },
-        series: [{data: [], color: 'rgba(233,30,0,0.5)'}, {data: [], color: 'rgba(55,233,41,0.5)'}],
+        series: [{data: [], color: 'rgba(233,30,0,0.5)', name: 'loss'}, {data: [], color: 'rgba(55,233,41,0.5)', name: 'profit'}],
         title : {
             text: "Momentum Trading Strategy" 
         },
